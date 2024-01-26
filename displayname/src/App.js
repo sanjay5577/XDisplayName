@@ -44,7 +44,7 @@ const Displayname = ()=>{
         </div>
       
       </div>
-      <button >Submit</button>
+      <button type="submit">Submit</button>
       </form>
 
       {issubmit && <p>Full Name: {inputs.firstname+" "+inputs.lastname}</p>}
